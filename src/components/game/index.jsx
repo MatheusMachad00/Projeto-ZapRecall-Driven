@@ -2,7 +2,7 @@ import { useState } from "react"
 import Header from "../header/index"
 import Footer from "../footer";
 import Card from "../card";
-import { CardStart, MainSection } from "./style"
+import { MainSection } from "./style"
 import data from "../../data";
 
 
