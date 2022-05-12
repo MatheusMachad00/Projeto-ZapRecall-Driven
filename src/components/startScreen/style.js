@@ -4,11 +4,11 @@ export const FirstScreen = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 148px;
 
     img{
-        height: 85px;
-        width: 75px;
+        width: 136px;
+        height: 161px;
     }
 
     p{
@@ -16,6 +16,7 @@ export const FirstScreen = styled.div`
         font-weight: 400;
         color: #FFFFFF;
         font-size: 45px;
+        margin-top: 13px;
     }
 
     button{
@@ -27,7 +28,7 @@ export const FirstScreen = styled.div`
         border: 2px solid #D70900;
         box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.15);
 
-        margin-top: 143px;
+        margin-top: 30px;
         width: 201px;
         height: 51px;
     }
