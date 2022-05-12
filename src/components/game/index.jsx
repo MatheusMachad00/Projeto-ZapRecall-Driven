@@ -34,12 +34,7 @@ export default function Game() {
             <Header />
 
             <MainSection>
-                {deck.map((card, index) => (
-                    <Card
-                    key = {index}
-                    index = {index}
-                    data = {questions}/>
-                ))}
+                {cardsGenerated}
             </MainSection>
 
             <Footer />
