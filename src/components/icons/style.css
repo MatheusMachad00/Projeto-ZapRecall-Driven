@@ -1,0 +1,20 @@
+.Icon {
+  color: var(--preto);
+}
+
+.Icone svg {
+  width: 23px;
+  height: 23px;
+}
+
+.Icon .erro {
+  color: var(--nao-lembrei);
+}
+
+.Icon .duvida {
+  color: var(--cor-quase-nao-lembrei);
+}
+
+.Icon .acerto {
+  color: var(--cor-zap);
+}

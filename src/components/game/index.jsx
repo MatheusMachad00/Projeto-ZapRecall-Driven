@@ -9,6 +9,7 @@ import data from "../../data";
 export default function Game() {
     let deck = data.sort(randomizer);
     const [questions, setQuestions] = useState([]);
+    const [answers, setAnswers] = useState([]);
 
     function createCards(){
         if (questions.length === 0) {
@@ -21,7 +22,8 @@ export default function Game() {
                     <Card
                     key = {index}
                     index = {index}
-                    data = {questions}/>
+                    data = {questions}
+                    setAnswers={setAnswers}/>
                 ))
             )
         }
@@ -37,7 +39,7 @@ export default function Game() {
                 {cardsGenerated}
             </MainSection>
 
-            <Footer />
+            <Footer data={data} answers={answers}/>
         </>
     );
 }
@@ -45,16 +47,3 @@ export default function Game() {
 function randomizer() {
     return Math.random() - 0.5;
 }
-
-
-/* 
-
-                {deck.map((d, index) => (
-                    <CardStart key={index}>
-                        <p >Pergunta {index + 1}</p>
-                        <ion-icon name="play-outline"></ion-icon>
-                    </CardStart>
-                ))}
-
-*/
-

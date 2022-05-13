@@ -1,10 +1,10 @@
 import { useState } from "react"                                   
 import { Baseboard } from "./style"
 
-export default function Footer(){
+export default function Footer({data, answers}){
     return(
         <Baseboard>
-        <p>0/8 concluídos</p>
+        <p>{answers.length}/{data.length} concluídos</p>
         </Baseboard>
     );
 }
