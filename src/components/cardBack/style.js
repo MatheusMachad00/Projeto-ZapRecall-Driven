@@ -97,19 +97,28 @@ export const CardStart = styled.div`
     border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 
-    p{
-        font-family: 'Recursive';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: #333333;
+p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
 
 }
 
-ion-icon{
-    font-weight: 700;
-    font-size: 32px;
-    color:#333333;
+.wrong{
+    color: #FF3030;
+    text-decoration: line-through;
+}
+
+.right{
+    color: #2FBE34;
+    text-decoration: line-through;
+}
+
+.doubt{
+    color: #FF922E;
+    text-decoration: line-through;
 }
 `

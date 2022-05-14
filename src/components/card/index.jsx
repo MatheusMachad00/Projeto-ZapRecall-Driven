@@ -11,8 +11,7 @@ export default function Card({ index, data, setAnswers }) {
     return (
         <> {!turnCard ? <CardStart key={index} onClick={() => setTurnCard(true)}>
             <p >Pergunta {index + 1}</p>
-            {/* <ion-icon name="play-outline"></ion-icon> */}
-            <Icon icon="party"/>
+            <Icon icon="play"/>
         </CardStart> : <CardFront data={data} index={index} setAnswers={setAnswers} />}
         </>
     );

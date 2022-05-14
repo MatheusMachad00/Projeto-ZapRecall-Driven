@@ -1,8 +1,8 @@
 import { useState } from "react"
+import { MainSection } from "./style"
 import Header from "../header/index"
 import Footer from "../footer";
 import Card from "../card";
-import { MainSection } from "./style"
 import data from "../../data";
 
 

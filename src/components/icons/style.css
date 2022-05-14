@@ -2,19 +2,19 @@
   color: var(--preto);
 }
 
-.Icone svg {
-  width: 23px;
-  height: 23px;
+.Icon svg {
+  width: 25px;
+  height: 25px;
 }
 
-.Icon .erro {
+.Icon .wrong {
   color: var(--nao-lembrei);
 }
 
-.Icon .duvida {
+.Icon .doubt {
   color: var(--cor-quase-nao-lembrei);
 }
 
-.Icon .acerto {
+.Icon .right {
   color: var(--cor-zap);
 }

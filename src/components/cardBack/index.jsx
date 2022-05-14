@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { Answer, CardStart } from "./style"
-import Card from "../card";
+import Icon from "../icons/index"
 
 export default function CardBack({ data, index, setAnswers }) {
-    const [isAnswered, setIsAnswered] = useState(false)
+    const [isAnswered, setIsAnswered] = useState(false);
+    const [symbol, setSymbol] = useState("");
+    const [textColor, setTextColor] = useState("");
 
     function answered(type) {
         setAnswers(a => [...a, type]);
         setIsAnswered(true);
+        setSymbol(type);
+        setTextColor(type);
     }
 
     return (
@@ -22,8 +26,8 @@ export default function CardBack({ data, index, setAnswers }) {
                     </div>
                 </Answer> :
                 <CardStart key={index} >
-                    <p >Pergunta {index + 1}</p>
-                    <ion-icon name="play-outline"></ion-icon>
+                    <p className={textColor}>Pergunta {index + 1}</p>
+                    <Icon icon={symbol}/>
                 </CardStart>}
         </>
     );

@@ -21,12 +21,8 @@ p{
     color:#333333;
 }
 
-.footerIcons ion-icon{
-    font-size: 30px;
-    
-}
-
 .footerIcons{
     display: flex;
+    margin-top: 6px;
 }
 `
