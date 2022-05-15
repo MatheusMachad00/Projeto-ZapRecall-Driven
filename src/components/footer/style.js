@@ -26,3 +26,25 @@ p{
     margin-top: 6px;
 }
 `
+
+export const FinalMessage = styled.div`
+.span{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+`

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Question, CardStart } from "./style"
+import { CardStart } from "./style"
 import CardFront from "../cardFront";
 import Icon from "../icons/index"
 

@@ -39,7 +39,7 @@ export default function Game() {
                 {cardsGenerated}
             </MainSection>
 
-            <Footer data={data} answers={answers}/>
+            <Footer data={data} answers={answers} questions={questions}/>
         </>
     );
 }
