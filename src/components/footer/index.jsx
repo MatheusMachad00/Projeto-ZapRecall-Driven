@@ -4,7 +4,7 @@ import Icon from "../icons/index"
 
 
 export default function Footer({ data, answers, questions }) {
-    const [msg, setMsg] = useState(false);
+
 
     function messageFooter() {
         let msg = <></>;
@@ -13,15 +13,15 @@ export default function Footer({ data, answers, questions }) {
             if (!answers.includes("wrong")) {
                 msg = (
                     <FinalMessage>
-                        <span><Icon icon="party" /> Parabéns!</span>
-                        <p>Você não esqueceu de nenhum flashcard!</p>
+                        <span><Icon icon="party" /><p> Parabéns!</p></span>
+                        <p>Você não esqueceu de<br></br>nenhum flashcard!</p>
                     </FinalMessage>
                 )
             } else {
                 msg = (
                     <FinalMessage>
-                        <span><Icon icon="sad" /> Putz!</span>
-                        <p>Ainda faltam alguns...Mas não desanime!</p>
+                        <span><Icon icon="sad" /><p>Putz...</p></span>
+                        <p>Ainda faltam alguns...<br></br>Mas não desanime!</p>
                     </FinalMessage>
                 )
             }
