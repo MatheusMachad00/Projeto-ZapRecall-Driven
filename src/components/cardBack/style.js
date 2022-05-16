@@ -7,7 +7,7 @@ export const Answer = styled.div`
     justify-content: space-around;
 
     background-color: #FFFFFF;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     width: 90vw;
     height: 20vh;
     padding-left: 6px;
@@ -89,7 +89,7 @@ export const CardStart = styled.div`
     justify-content: space-between;
 
     background-color: #FFFFFF;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     width: 90vw;
     height: 10vh;
     padding-left: 6px;

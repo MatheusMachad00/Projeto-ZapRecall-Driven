@@ -36,7 +36,6 @@ export default function Footer({ data, answers, questions }) {
     }
 
     const msgFooter = messageFooter();
-    
 
     return (
         <Baseboard>

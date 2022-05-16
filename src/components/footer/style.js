@@ -10,7 +10,6 @@ export const Baseboard = styled.footer`
 
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     padding-bottom: 15px;
     padding-top: 24px;

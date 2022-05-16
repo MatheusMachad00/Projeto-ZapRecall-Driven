@@ -5,7 +5,7 @@ export const Question = styled.div`
     align-items: center;
     justify-content: space-between;
     background-color: #FEFAD4;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     width: 90vw;
     height: 20vh;
     padding-left: 6px;
